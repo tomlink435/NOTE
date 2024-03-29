@@ -146,3 +146,67 @@ https://docs.microsoft.com/en-us/azure/azure-app-configuration/overview
  
 
 ![image](https://github.com/tomlink435/NOTE/assets/99723188/80ffd121-95d0-4aa4-86fc-c651f6b7a754)
+
+
+
+Introducing Azure Functions
+Languages and runtimes
+Best Case Connectivity Coding Patterns
+Create and deploy an Azure Function
+WebJobs
+Authentication and authorization
+KUDU Deployment
+Azure Resource Management (ARM) templates
+Azure Monitor overview
+Azure Functions Overview
+Azure Compute Options
+Hosting Plans / Runtimes / Languages
+Triggers and Bindings concepts
+How to execute an Azure Function with triggers
+5 things about Azure Functions (Video)
+The introduction to Azure Functions (Video)
+Azure Functions and Serverless architectures (Video)
+Azure Functions developers guide
+Azure Functions error handling
+Manage connections in Azure Functions
+Create Azure Function (JavaScript)
+Create Azure Function (C# / Visual Studio)
+Create Azure Function (C# / Azure Portal)
+Create Azure Function (Timer Trigger / Portal)
+Developing Azure Functions (Video)
+Deploy to Azure with Azure App Service
+Managing a function app
+What are Durable Functions
+Durable Functions Workflows (Video)
+Introducing Azure Functions
+Languages and runtimes
+Best Case Connectivity Coding Patterns
+Create and deploy an Azure Function
+WebJobs
+Authentication and authorization
+KUDU Deployment
+Azure Resource Management (ARM) templates
+Azure Monitor overview
+Azure Functions Overview
+Azure Compute Options
+Hosting Plans / Runtimes / Languages
+Triggers and Bindings concepts
+How to execute an Azure Function with triggers
+5 things about Azure Functions (Video)
+The introduction to Azure Functions (Video)
+Azure Functions and Serverless architectures (Video)
+Azure Functions developers guide
+Azure Functions error handling
+Manage connections in Azure Functions
+Create Azure Function (JavaScript)
+Create Azure Function (C# / Visual Studio)
+Create Azure Function (C# / Azure Portal)
+Create Azure Function (Timer Trigger / Portal)
+Developing Azure Functions (Video)
+Deploy to Azure with Azure App Service
+Managing a function app
+What are Durable Functions
+Durable Functions Workflows (Video)
+
+![image](https://github.com/tomlink435/NOTE/assets/99723188/c8cf582f-5fd1-4fcf-8532-18d22cc3a79a)
+
