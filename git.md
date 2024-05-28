@@ -1,11 +1,26 @@
-git remote add origin https://github.com/username/repository.git
+与远程仓库建立连接
 
-git pull origin master
+```git remote add origin https://github.com/username/repository.git```
 
-git add example.txt
+修改远程仓库地址
 
-git add .
+ ```git remote set-url origin https://github.com/yourname/learngit.git```
 
-git commit -m "Update example.txt with new content"
+拉代码
 
-git push origin master
+```git pull origin master```
+
+添加
+
+```git add example.txt```
+
+`git add .`
+
+提交
+
+`git commit -m "Update example.txt with new content"`
+
+推送
+
+`git push origin master`
+
