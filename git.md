@@ -1,3 +1,9 @@
+登录
+
+```git config --global user.name 'tomlink435'  ```
+
+` git config --global user.email '1484228340@qq.com'`
+
 与远程仓库建立连接
 
 ```git remote add origin https://github.com/username/repository.git```
