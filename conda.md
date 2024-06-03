@@ -143,3 +143,35 @@ conda create -n myenv python=3.8
   ```
 
 Conda虚拟环境是Python项目管理中一个非常实用的工具，它有助于确保开发环境的一致性和项目的可移植性。
+
+
+
+#### 进入jupyter
+
+https://www.bilibili.com/video/BV1hE411t7RN/?p=5&vd_source=864ac840fe8511f3101410cf04912a64
+
+![Screenshot 2024-01-13 at 10.34.26](/Users/teresa/Desktop/Screenshot 2024-01-13 at 10.34.26.png)
+
+
+
+```
+img_path='/Users/teresa/Program/Code/pytorchTest/dataset/train/ants/5650366_e22b7e1065.jpg'
+
+from PIL import Image
+
+img=Image.open(img_path)
+
+img.show()
+```
+
+
+
+![Screenshot 2024-01-15 at 10.30.47](/Users/teresa/Library/Application Support/typora-user-images/Screenshot 2024-01-15 at 10.30.47.png)
+
+img->toTensor
+
+transform
+
+Img.open
+
+tensorboard
