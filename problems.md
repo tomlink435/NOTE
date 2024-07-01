@@ -76,3 +76,21 @@ $ n use xx.xx.x a.js
 ```\
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '12345678';
 ```
+
+
+
+# docker 
+
+pull不下来：
+
+![image-20240606101929230](/Users/teresa/Library/Application Support/typora-user-images/image-20240606101929230.png)
+
+`sudo mkdir -p /etc/docker sudo tee /etc/docker/daemon.json <<-'EOF' {  "registry-mirrors": ["https://c2b4txcf.mirror.aliyuncs.com"] } EOF sudo systemctl daemon-reload sudo systemctl restart docker`
+
+修改镜像文件即可
+
+进不去的问题，换一个映射端口即可http://120.55.182.185:8011/ss-admin/install/
+
+Sscms超级管理员admin
+
+密码jyvca8-vyrbiK-hurjaq
