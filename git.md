@@ -60,7 +60,7 @@ $ cat ~/.ssh/id_rsa.pub
 
 生成内容：
 
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDM6cJYxHhPwdgAsW7MGhAaAo3GyyM7Qn8NpQaqo2heCvyAuPVhVx8beMTYI0cTLIIeXRnc6lsC+n3oK6fSOvXoSAYBdHPnn0ZUzC2na8WHO7Sw3J6O9LvWVRszcDAdV0v8SDs0vIwLOAu+ipgR2XFowuSA432f9yb6ckleaZuFLzKsE0efhdwXiiFrF/gxl8X+Bb4J/OdqDd8tm18B+iVG6R6LRZSBLGz+hrmq2LG1ziuBiCuIT5RgWaRszZU/6YZZL+vkIMPq6U8+6qJ+50+W9iTG3U18/hkWhLCChhTxJm6Ymbt/I4urKyXYhJVzG4dz3Eq9GbNKzvaLJ5TlTKJArtoQ9m6YkB7AW4h3INC/HhVoPhb8CpiYNjNWuN8oWIefh9A5ZA8BefZXvB2O60yNz1mB9/6l+8zeirfNyT7K2XYhMzRKzhVOT409phX67ftapNe194pkZ4YCwXelsT8SO0QfsfWAGPpu9tiJpwXUjtQ+3Zm5kWDlR5WAXt1ru/s= 1484228340@qq.com
+//已删，否则因为这些信息git提交不上去
 
 
 
@@ -77,6 +77,12 @@ git config --global core.sshCommand "ssh -i ~/.ssh/id_rsa"
 ## git实现忽略文件
 
 定义.gitignore文件
+
+
+
+## git rm操作后文件恢复
+
+https://blog.csdn.net/wuqingshan2010/article/details/103631146
 
 
 
