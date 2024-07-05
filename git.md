@@ -80,6 +80,16 @@ git config --global core.sshCommand "ssh -i ~/.ssh/id_rsa"
 
 
 
+## git实现忽略文件
+
+定义.gitignore文件
 
 
-为什么文件夹有白色箭头并且打不开：被认为是子模块，参考https://www.jianshu.com/p/28e61a24d847
+
+
+
+#### 为什么文件夹有白色箭头并且打不开
+
+被认为是子模块，删除文件夹内的.git文件 
+
+参考https://www.jianshu.com/p/28e61a24d847

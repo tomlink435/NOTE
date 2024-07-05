@@ -94,3 +94,37 @@ pull不下来：
 Sscms超级管理员admin
 
 密码jyvca8-vyrbiK-hurjaq
+
+
+
+## 文件上传服务器并访问的流程
+
+方法1（默认配置）:
+
+通过SpringBoot通常访问静态资源的方式，当访问：项目根路径 + / + 静态文件名时，SpringBoot会依次去类路径下的四个静态资源目录下查找![image-20240702163648481](/Users/teresa/Library/Application Support/typora-user-images/image-20240702163648481.png)
+
+有时候重启一下就好了
+
+方法2:
+
+配置资源映射文件
+
+yml中![image-20240703092854775](/Users/teresa/Library/Application Support/typora-user-images/image-20240703092854775.png)
+
+Myconfig  配置映射
+
+```
+@Override
+public void addResourceHandlers(ResourceHandlerRegistry registry) {
+
+    registry.addResourceHandler("/staticfiles/**")
+            .addResourceLocations("file:"+uploadpath+"/");
+  
+}
+```
+
+前端
+
+ item.imageUrl = BASE_URL + '/api/staticfiles/image/' + item.image
+
+![image-20240703100257767](/Users/teresa/Library/Application Support/typora-user-images/image-20240703100257767.png)
