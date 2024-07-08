@@ -18,6 +18,7 @@ es6是规范，js是实现
 
 ## Vue2 和 vue3 的区别
 
+1. Vue3提供了全新的Composition API来替代以前的Options API,[ Script](https://geek-docs.com/vuejs/vue-js-questions/939_vuejs_how_do_you_export_default_from_inside_script_setup_in_vue_3.html#) setup是Composition API的核心之一，它使得编写Vue组件更加简洁和直观。
 1. 构建方式不同
 
 webpack 
@@ -118,6 +119,25 @@ errorCaptured  -------->      onErrorCaptured(()=>{})
 
 
 
+
+
+Router.resolve新窗口打开，只支持query
+
+`let data = this.$router.resolve({
+  path: "/channel_sms",// 或者 name: 'channel_sms',
+  query: {
+    a: 1,
+  },
+});`
+
+
+
+
+
+push当前窗口打开，支持query和params
+
+
+
 ## export default
 
 用于导出常量、函数、文件、模块
@@ -153,6 +173,46 @@ reactive定义对象或者数组，不需要.value
 将普通对象转成响应式对象
 
 
+
+## ts和js的区别
+
+ts是js的超集
+
+
+
+## 什么是Script Setup?
+
+[ Script](https://geek-docs.com/vuejs/vue-js-questions/939_vuejs_how_do_you_export_default_from_inside_script_setup_in_vue_3.html#) setup不需要再使用export default来导出组件选项，它会自动将脚本中的所有变量、函数和组件选项导出。
+
+```vue
+<script setup>
+  // 在此处编写组件的脚本逻辑
+</script>
+```
+
+
+
+
+
+## 路由对象传参（重要）
+
+传参页面
+
+router.**push**({ name: 'done', query: { form: JSON.**stringify**(form) } });
+
+
+
+跳转页面
+
+ const formQuery = route.query.form;
+
+​      if (formQuery) {
+
+​        **Object**.**assign**(form, JSON.**parse**(formQuery));
+
+​      }
+
+​      console.**log**('-----', form);
 
 
 
