@@ -216,3 +216,43 @@ router.**push**({ name: 'done', query: { form: JSON.**stringify**(form) } });
 
 
 
+
+
+
+
+### npm install 权限
+
+在 Windows 系统中，打开命令提示符，右键以管理员身份运行，然后再运行 npm install 即可获得**管理员权限**。 在 macOS 和 Linux 系统中，打开终端，使用 sudo 命令运行 npm install ，例如： sudo npm install 。
+
+
+
+
+
+
+
+# js
+
+![image-20240728162116167](/Users/teresa/Library/Application Support/typora-user-images/image-20240728162116167.png)
+
+
+
+# 跨域
+
+![image-20240728171854141](/Users/teresa/Library/Application Support/typora-user-images/image-20240728171854141.png)
+
+
+
+---
+
+# token
+
+![image-20240728174002312](/Users/teresa/Library/Application Support/typora-user-images/image-20240728174002312.png)
+
+
+
+
+
+
+
+
+

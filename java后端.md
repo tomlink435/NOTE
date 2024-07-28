@@ -608,31 +608,60 @@ public class ChatApplication {
 
 
 
-# 企业
-
-## git
-
-### git命令
-
-git remote add origin https://github.com/username/repository.git添加远程仓库
-
-git remote -v 查看远程仓库
-
-git remote set-url origin https://github.com/new_username/new_repository.git更改远程仓库
-
-git pull origin master 拉取
-
-git add example.txt 
-
-git add . 添加全部文件
-
-git commit -m "Update example.txt with new content" 提交
-
-git push origin master 推送
-
-### gitpat
-
-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
+# 微服务架构
 
 
 
+
+
+# springboot
+
+起步依赖 springbootstartweb
+
+自动配置 bean
+
+bean扫描
+
+@bean  
+
+
+
+@value的用法
+
+![image-20240724170530976](/Users/teresa/Library/Application Support/typora-user-images/image-20240724170530976.png)
+
+
+
+自动配置原理
+
+在boot程序启动后，起步依赖中的一部分bean对象会自动注入到ioc容器
+
+
+
+restcontoller&controller
+
+@RestController 是 @Controller 和 @ResponseBody 的结合体。
+
+​	•	@Controller 适用于传统的Web应用程序，通常需要返回视图进行页面渲染。
+
+​	•	@RestController 适用于RESTful Web服务，默认返回JSON或XML数据，不需要返回视图进行页面渲染。
+
+
+
+使用@validation参数校验
+
+![image-20240726133043954](/Users/teresa/Library/Application Support/typora-user-images/image-20240726133043954.png)
+
+全局异常处理器
+
+
+
+
+
+![image-20240727162916703](/Users/teresa/Library/Application Support/typora-user-images/image-20240727162916703.png)
+
+分组校验（用得少）
+
+比如id设为not null，但是id一般是自增的，id设为not null会报错。由此规则分组
+
+![image-20240728124116056](/Users/teresa/Library/Application Support/typora-user-images/image-20240728124116056.png)
